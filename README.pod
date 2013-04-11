@@ -1,0 +1,27 @@
+=encoding utf8
+
+=head1 The Blue Rabbit Log
+
+=head2 About
+
+This repository contains the sources for “The Blue Rabbit Log”,
+screenplays for a trilogy of films that parody table-top Fantasy Role
+Playing Games. The text for them is mostly original by Shlomi Fish
+( L<http://www.shlomifish.org/> ).
+
+=head2 Links
+
+=over 4
+
+=item * Homepage
+
+L<http://www.shlomifish.org/humour/Blue-Rabbit-Log/>
+
+=back
+
+=head2 Building
+
+Go to C<Blue-Rabbit-Log/screenplay> and type C<make> .
+
+=cut
+

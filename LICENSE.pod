@@ -1,0 +1,15 @@
+=encoding utf8
+
+=head1 LICENSE
+
+=head2 Text
+
+The text for the screenplay I<The Blue Rabbit’s Log> is original, but it
+is based on characters and concepts from the Dungeons E<amp> Dungeons
+table-top role playing game and other role playing games.
+
+As far as I am concerned, the licence for the text is
+the L<http://creativecommons.org/licenses/by-nc-sa/3.0/> (Unported), either
+version 3.0 or at your option any later version.
+
+=cut
