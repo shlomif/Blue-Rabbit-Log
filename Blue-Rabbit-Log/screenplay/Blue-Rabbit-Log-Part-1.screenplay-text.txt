@@ -249,7 +249,7 @@ on it. Blor is hanging by his machine-bow’s string of arrows.]
 
 </s>
 
-<s id="the-PCs-meet-Galku" title="the Player Characters Meet Galku">
+<s id="the-PCs-meet-Galku" title="The Player Characters Meet Galku">
 
 [Mordox disappears. The Blue Rabbits arrive. Bryte sees Galku who tries to
 look innocent, but Bryte rushes to him and lifts him up in the air.]
