@@ -5,7 +5,7 @@ FILES = Makefile $(DOCS_SCREENPLAY_XHTML) \
 
 # The-Enemy-English.xhtml \
 
-DOCS_BASE = Blue-Rabbit-Log-Part-1
+DOCS_BASE = Blue-Rabbit-Log-part-1
 
 DOCS_SCREENPLAY_TEXT = $(patsubst %,%.screenplay-text.txt,$(DOCS_BASE))
 DOCS_SCREENPLAY_XML = $(patsubst %,%.screenplay-xml.xml,$(DOCS_BASE))

@@ -120,15 +120,16 @@ body
 EOF
 }
 
-foreach my $part ($filename =~ /\ABlue-Rabbit-Log-Part-([0-9]+)/g)
+my $base = 'Blue-Rabbit-Log-part-';
+foreach my $part ($filename =~ /\A\Q$base\E([0-9]+)/g)
 {
-    my $epub_basename = "TOW_Fountainhead_$part";
+    my $epub_basename = $base.$part;
     my $json_filename = "$epub_basename.json";
     io->file($target_dir . '/' . $json_filename)->utf8->print(
         encode_json(
             {
                 filename => $epub_basename,
-                title => qq/The One with The Fountainhead - Part $part/,
+                title => qq/The Blue Rabbit Log - $part/,
                 authors =>
                 [
                     {
@@ -144,7 +145,7 @@ foreach my $part ($filename =~ /\ABlue-Rabbit-Log-Part-([0-9]+)/g)
                     },
                 ],
                 cover => "images/$gfx",
-                rights => "Creative Commons Attribution ShareAlike Unported (CC-by-3.0)",
+                rights => "Creative Commons Attribution Noncommercial ShareAlike Unported (CC-by-3.0)",
                 publisher => 'http://www.shlomifish.org/',
                 language => 'en-GB',
                 subjects => [ 'FICTION/Horror', 'FICTION/Humorous', 'FICTION/Masups', ],
