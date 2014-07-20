@@ -1,10 +1,3 @@
-FILES = Makefile $(DOCS_SCREENPLAY_XHTML) \
-		$(DOCS_SCREENPLAY_TEXT) \
-		style.css style-heb.css \
-		README.html
-
-# The-Enemy-English.xhtml \
-
 DOCS_BASE = Blue-Rabbit-Log-part-1
 
 SELINA_UPLOAD_TEMP_DEST = temp-blue-rabbit-log-P9n7ybv3wq2t
