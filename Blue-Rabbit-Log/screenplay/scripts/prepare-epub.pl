@@ -44,10 +44,10 @@ foreach my $part ($filename =~ /\A\Q$base\E([0-9]+)/g)
                     },
                 ],
                 cover => "images/$gfx",
-                rights => "Creative Commons Attribution Noncommercial ShareAlike Unported (CC-by-3.0)",
+                rights => "Creative Commons Attribution Noncommercial ShareAlike Unported (CC-by-nc-sa-3.0)",
                 publisher => 'http://www.shlomifish.org/',
                 language => 'en-GB',
-                subjects => [ 'FICTION/Horror', 'FICTION/Humorous', 'FICTION/Masups', ],
+                subjects => [ 'FICTION/Horror', 'FICTION/Humorous', 'FICTION/Mashups', ],
                 identifier =>
                 {
                     scheme => 'URL',
