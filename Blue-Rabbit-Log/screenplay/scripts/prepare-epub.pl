@@ -12,7 +12,6 @@ $obj->run;
 
 my $gfx = $obj->gfx;
 my $filename = $obj->filename;
-my $out_fn = $obj->out_fn;
 
 my $base = 'Blue-Rabbit-Log-part-';
 foreach my $part ($filename =~ /\A\Q$base\E([0-9]+)/g)
