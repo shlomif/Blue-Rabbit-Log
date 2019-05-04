@@ -39,7 +39,7 @@ then
 elif test "$cmd" = "install"
 then
     cpanm --notest YAML::XS
-    cpanm HTML::T5
+    cpanm HTML::T5 Test::HTML::Tidy::Recursive::Strict
     h=~/Docs/homepage/homepage
     mkdir -p "$h"
     git clone https://github.com/shlomif/shlomi-fish-homepage "$h/trunk"

@@ -4,9 +4,9 @@ use strict;
 use warnings;
 use autodie;
 
-use Test::HTML::Tidy::Recursive ();
+use Test::HTML::Tidy::Recursive::Strict ();
 
-Test::HTML::Tidy::Recursive->new(
+Test::HTML::Tidy::Recursive::Strict->new(
     {
         targets => [ '.', ],
     }
