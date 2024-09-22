@@ -195,7 +195,7 @@ adventurers after all.
 [ cut to Klaria - she is filing her nails.]
 
 Klaria: Yes, we solve problems, whether those that we created, or in this
-case - that we didn’t.
+case - one we didn’t.
 
 Rupert: Yeah.
 
@@ -221,7 +221,8 @@ Clover: OK, first thing’s next morning.
 
 <s id="blor-the-gnome-inventor" title="Blor the gnome inventor">
 
-[ The Blue Rabbits are recruiting non-player characters.]
+[ The Blue Rabbits are recruiting non-player characters for joining them
+in a mission.]
 
 Blor: I have a great invention.
 
